@@ -1,0 +1,13 @@
+# Core pipeline
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.6
+
+# Only needed to rebuild the tensors from the raw vectors (risk_tensor_tpr*.py)
+geopandas>=0.13
+rasterio>=1.3
+
+# Only needed by the archived slide scripts in else/ppt/
+# python-pptx>=0.6.21
+# python-docx>=1.0
+# Pillow>=9.0
